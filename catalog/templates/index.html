@@ -1,0 +1,22 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>CALEB LIBRARY HOME</h1>
+
+<p>Welcome to <em>CALEB LIBRARY,</em> the raddest library ever mane.</p>
+
+
+<h2>Dynamic content!!11!!</h2>
+
+<p>The library has the following recordzz:</p>
+<ul>
+<li><strong>Books:</strong> {{ num_books }}</li>
+<li><strong>Copies:</strong> {{ num_instances }}</li>
+<li><strong>Copies available:</strong> {{ num_instances_available }}</li>
+<li><strong>Authors:</strong> {{ num_authors }}</li>
+</ul>
+
+
+You have visited this page {{ num_visits }} times.
+
+{% endblock %}
